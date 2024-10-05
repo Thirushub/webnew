@@ -1,0 +1,46 @@
+
+.ai-green-Ins1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.init-ai-sectionIns1 {
+    position: absolute;
+    top: 46%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    font-weight: 900;
+}
+
+/* Default font size for larger screens */
+.init-ai-sectionIns1:nth-child(1) {
+    font-size: 3rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .init-ai-sectionIns1:nth-child(1) {
+        font-size: 1rem; /* Adjust this value as needed */
+    }
+}
+
+.init-red-bg {
+    background: red;
+}
+
+.Ins1{
+    padding-right: 42%;
+}
+
+.Indusfirst li{
+    padding-left: 35%;
+    margin: 1%;
+    font-size: 20px;
+}
+

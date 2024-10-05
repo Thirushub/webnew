@@ -1,0 +1,46 @@
+header {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* For transparent navbar */
+  .navbar-transparent {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adjust the blur as needed */
+    box-shadow: none;
+  }
+  
+  /* For solid navbar */
+  .navbar-solid {
+    background: white;
+    backdrop-filter: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the solid state */
+  }
+  
+  .navbar-solid,
+  .navbar-transparent {
+    position: fixed; /* Make sure the navbar stays on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it’s above other content */
+  }
+  
+  .navbar-transparent {
+    position: absolute; /* Allows it to overlap with other content in the background */
+  }
+  
+  /* Add some padding for better spacing */
+  header nav {
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  

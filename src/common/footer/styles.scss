@@ -1,0 +1,15 @@
+.footer-link {
+    font-weight: normal; 
+    transition: all 0.3s ease; 
+  }
+  
+  .footer-link:hover {
+    font-weight: bold; /* Change font weight on hover */
+    color: #005eff; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer-link:active {
+    color: #ff0000; /* Change color when link is active (clicked) */
+  }
+  

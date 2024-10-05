@@ -1,0 +1,89 @@
+
+.ai-green-vi {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.init-ai-section {
+    position: absolute;
+    top: 46%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    font-weight: 900;
+}
+
+/* Default font size for larger screens */
+.init-ai-section:nth-child(1) {
+    font-size: 5rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .init-ai-section:nth-child(1) {
+        font-size: 1rem; /* Adjust this value as needed */
+    }
+}
+
+.init-red-bg {
+    background: red;
+}
+
+
+
+
+.ai-li-text {
+    font-size: 22px; /* Font size for the text */
+    width: 500px; /* Fixed width for the text box */
+    height: auto; /* Height adjusts based on content */
+    /* Remove overflow and text overflow properties */
+    overflow: visible; /* Ensure text is fully visible */
+    white-space: normal; /* Allow text to wrap to the next line */
+    padding: 5PX;
+
+}
+
+.ai-m {
+    width: 100px;
+
+}
+
+
+
+.custom-container {
+    max-width: 1600px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.custom-card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serviceAndSol_ImageBox {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceAndSol_img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.serviceAndSol_liText {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+

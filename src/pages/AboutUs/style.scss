@@ -1,0 +1,38 @@
+.ai-green-v1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.init-ai-section1 {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    font-weight: 900;
+}
+
+/* Default font size for larger screens */
+.init-ai-section1:nth-child(1) {
+    font-size: 4rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .init-ai-section1:nth-child(1) {
+        font-size: 1rem; /* Adjust this value as needed */
+    }
+}
+
+.init-red-bg {
+    background: red;
+}
+
+.abspage{
+    padding-right: 66%;
+}
